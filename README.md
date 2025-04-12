@@ -1,2 +1,5 @@
-# An-alisis-de-Sentimiento-en-Tweets-con-LSTM
-implementación modelos de redes neuronales recurrentes LSTM con mecanismo de atención
+# Análisis de Sentimiento con RNN, LSTM y BiLSTM + Atención
+
+## Requisitos
+```bash
+pip install -r requirements.txt

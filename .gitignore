@@ -1,0 +1,11 @@
+# Archivos y carpetas de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Modelos entrenados
+*.h5
+
+# Archivos de entorno virtual
+venv/
+env/
