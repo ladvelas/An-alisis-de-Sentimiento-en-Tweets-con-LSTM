@@ -17,7 +17,7 @@ from src.evaluate import (
 )
 
 url = "https://raw.githubusercontent.com/dD2405/Twitter_Sentiment_Analysis/master/train.csv"
-model_path = "../models/rnn_model.keras"
+model_path = "./models/rnn_model.keras"
 
 # Carga, limpieza y balanceo de datos
 df = load_data(url)

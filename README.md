@@ -5,10 +5,9 @@ Este proyecto utiliza una red neuronal recurrente (RNN) para analizar el sentimi
 ## 🚀 Tecnologías usadas
 
 - Python
-- PyTorch / TensorFlow (ajustar según lo que uses)
-- Jupyter / scripts de entrenamiento
+- TensorFlow (ajustar según lo que uses)
 - Numpy, pandas, scikit-learn
-- Matplotlib / seaborn (para visualización)
+- Matplotlib (para visualización)
 
 ## 📂 Estructura del proyecto
 
@@ -28,8 +27,9 @@ source venv/bin/activate  # En Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 
 # Ejecutar el proyecto
-# (Instrucciones específicas según tu proyecto)
+python main.py
+```
 
-
+Cualquier modificación se puede realizar en el archivo correspondiente en src.
 
 
