@@ -21,9 +21,14 @@ cd An-alisis-de-Sentimiento-en-Tweets-con-LSTM
 ```
 
 ```bash
-# Crear y activar entorno virtual
+# Crear y activar entorno virtual (linux)
 python -m venv venv
-source venv/bin/activate  # En Windows: .\venv\Scripts\activate
+source venv/bin/activate  
+```
+
+```bash
+# Crear y activar entorno virtual (Windows)
+.\venv\Scripts\activate
 ```
 
 
