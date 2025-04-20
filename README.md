@@ -18,14 +18,21 @@ Este proyecto utiliza una red neuronal recurrente (RNN) para analizar el sentimi
 # Clonar el repositorio
 git clone https://github.com/ladvelas/An-alisis-de-Sentimiento-en-Tweets-con-LSTM.git
 cd An-alisis-de-Sentimiento-en-Tweets-con-LSTM
+```
 
+```bash
 # Crear y activar entorno virtual
 python -m venv venv
 source venv/bin/activate  # En Windows: .\venv\Scripts\activate
+```
 
+
+```bash
 # Instalar dependencias
 pip install -r requirements.txt
+```
 
+```bash
 # Ejecutar el proyecto
 python main.py
 ```
