@@ -7,4 +7,3 @@ def clean_text(text):
     text = re.sub(r'[^A-Za-z0-9\s]', '', text)  # eliminar caracteres especiales
     text = re.sub(r'\s+', ' ', text)  # eliminar espacios múltiples
     return text.strip()
-
