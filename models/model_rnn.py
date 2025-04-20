@@ -1,7 +1,6 @@
-import numpy as np
-from keras.models import Sequential
-from keras.layers import LSTM, Dense, Embedding
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import SimpleRNN, Dense, Embedding
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 
 
