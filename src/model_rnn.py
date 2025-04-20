@@ -6,7 +6,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 
-def creacion_model_rnn(vocab_size, max_length):
+def creacion_model_rnn(vocab_size=10000, max_length=50):
     """
     Crea un modelo RNN simple.
     """

@@ -18,6 +18,9 @@ def clean_text(text):
     text = re.sub(r'\s+', ' ', text)  # eliminar espacios múltiples
     return text.strip()
 
+def clean_df(df):
+    df['tweet'] = df['tweet'].apply(clean_text)
+    return df
 # Función para equilibrar el dataset
 def balance_dataset(df):
     # Contar la cantidad de muestras por clase
@@ -63,7 +66,7 @@ def binary_labels(df):
     df['label'] = df['label'].astype('int32')
     return df
 
-def get_train_test_validation(X, y):
+def split_data(X, y):
     # Dividir entre train y temp
     X_train, X_temp, y_train, y_temp = train_test_split(
         X, y, test_size=0.3, random_state=42, stratify=y
